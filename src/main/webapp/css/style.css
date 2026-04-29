@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* Page Background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    height: 100vh;
+}
+
+/* Top Navbar */
+.navbar {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Heading */
+.title {
+    text-align: center;
+    color: sky blue;
+    margin-top: 40px;
+    font-size: 56px;
+    letter-spacing: 2px;
+}
+
+/* Center Box */
+.container {
+    width: 400px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Button Colors */
+.add { background-color: #3498db; }
+.update { background-color: #2ecc71; }
+.delete { background-color: #e74c3c; }
+.display { background-color: #2980b9; }
+.reports { background-color: #f39c12; }
+
+/* Hover Effects */
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
